@@ -96,6 +96,33 @@ elif 50 <= mark <= 59:
 else:
     print("F")
 
+    
+#Q10
+num1=float(input("Enter number1:"))
+num2=float(input("Enter number2:"))
+opt = str(input("Enter the operator(+,-,*o,/):"))
+
+if opt == "+":
+    result=num1+num2
+   
+elif opt == "-":
+    result=num1-num2
+    
+elif opt == "*":
+    result=num1*num2
+   
+elif opt == "/":
+    if num2 !=0:
+        result=num1/num2
+    else:
+        print("Cannot divide by zero")
+else:
+    print("Invalid operator")
+
+
+#display result
+print("Result =  ",result)
+    
 
 
 
